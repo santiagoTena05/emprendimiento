@@ -17,7 +17,7 @@ baterias = [
 # Mostrar opciones de batería
 print("Seleccione el tipo de batería:")
 for i, bateria in enumerate(baterias):
-    print(f"{i + 1}. {bateria.nombre} - {bateria.voltaje}V, {bateria.capacidad}kWh, {bateria.peso}kg, {bateria.dimensiones}mm")
+    print(f"{i + 1}. {bateria.nombre} - Voltaje: {bateria.voltaje}V, Capacidad: {bateria.capacidad}kWh, Peso: {bateria.peso}kg, Dimensiones: {bateria.dimensiones}mm")
 
 # Solicitar al usuario la selección y cantidad
 opcion = int(input("Ingrese el número de la batería deseada: ")) - 1
